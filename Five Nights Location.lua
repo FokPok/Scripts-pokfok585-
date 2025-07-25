@@ -631,14 +631,6 @@ local args = {
 game:GetService("ReplicatedStorage").CharChangeno:FireServer(unpack(args))
 end)
 
-Section:NewButton("WitheredGoldenFreddyHead", "morph", function()
-local args = {
-    [1] = game:GetService("ReplicatedStorage").Animatronics.fnaf2.WitheredGoldenFreddyHead
-}
-
-game:GetService("ReplicatedStorage").CharChangeno:FireServer(unpack(args))
-end)
-
 Section:NewButton("WitheredShadowFreddy", "morph", function()
 local args = {
     [1] = game:GetService("ReplicatedStorage").Animatronics.fnaf2.WitheredShadowFreddy
