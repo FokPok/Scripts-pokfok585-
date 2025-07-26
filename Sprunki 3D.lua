@@ -1,7 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 local Window = Library.CreateLib("Sprunki 3D (By: pokfok585)", "RJTheme3")
 local Tab = Window:NewTab("Teleport")
-local Section = Tab:NewSection("Badge's")
+local Section = Tab:NewSection("Badges")
 
 Section:NewButton("Badge", "Teleport to Badge", function()
     local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart 
